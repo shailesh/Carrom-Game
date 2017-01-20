@@ -1,0 +1,37 @@
+***************************************************************CARROM GAME****************************************************************************
+
+CONTROLS:
+
+    BY MOUSE:
+
+        Left Click:                 Fire striker
+        Drag with right Click:      Move striker left and right on the territory
+        Hover on the board:         Change the pointer direction
+        Up arrow key:               Increase fire power
+        Down arrow key:             Decrease fire power
+
+
+    BY KEYBOARD:
+
+        Up arrow key:               Increase fire power
+        Down arrow key:             Decrease fire power
+        'a' key:                    Rotate pointer in Anti-Clockwise fashion
+        'c' key:                    Rotate pointer in Clockwise fashion
+        'Space' key:                Fire Striker
+
+RULES:
+
+    On pocketing these:
+        Red coin: Score += 50
+        Your Color(White for now): Score += 10
+        Opposite Color: Score -= 5
+        Striker: Score -= 5
+    Score decreases every second.
+
+EXTRA:
+    
+    Goal of the game is to pocket coins of your color in "MINIMUM TIME".
+    Difficulty level increases after every chance: Velocity of the striker increases(For the same power) after every chance.
+    Added a scoreboard to display score.
+    Added a collection basket to show the pocketed coins
+    Power bar to show the power while striking the striker
